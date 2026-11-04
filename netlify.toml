@@ -1,0 +1,4 @@
+# Publish only the password-locked page, never the code stored in this repo.
+[build]
+  command = "mkdir -p public && cp index.html public/index.html"
+  publish = "public"
